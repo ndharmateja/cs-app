@@ -1,2 +1,6 @@
 **/a.out
+**/*.o
+**/*.s
+**/main
 **/.DS_Store
+
