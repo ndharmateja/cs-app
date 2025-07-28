@@ -4,6 +4,8 @@
 int main()
 {
     // Declaring the max normalized 32 bit float
+    // 0 1111_1110 1111_1111_1111_1111_1111_111
+    // 0x7F7FFFFF
     union
     {
         int u;
