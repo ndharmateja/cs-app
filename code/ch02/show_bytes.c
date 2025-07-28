@@ -49,18 +49,3 @@ void show_bytes_in_hex(unsigned char *ptr, int num_bytes)
 {
     show_bytes(ptr, num_bytes, true);
 }
-
-int main()
-{
-    int x = -1;
-    printf("x: %d\n", x);
-    show_bytes_in_binary((unsigned char *)&x, sizeof(x));
-    show_bytes_in_hex((unsigned char *)&x, sizeof(x));
-
-    x = 19;
-    printf("x: %d\n", x);
-    show_bytes_in_binary((unsigned char *)&x, sizeof(x));
-    show_bytes_in_hex((unsigned char *)&x, sizeof(x));
-
-    return 0;
-}
